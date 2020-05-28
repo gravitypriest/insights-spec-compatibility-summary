@@ -1,6 +1,18 @@
 # Translating Uploader.json to Core Specs
 In order to ease the transition from classic collection to core, an investigation was done to see if we can maintain compatibility with currently existing remove.conf files. Results follow.
 
+- [Part 1: Comparing Symbolic Names](#part-1-comparing-symbolic-names)
+  - [Commands](#commands)
+  - [Files](#files)
+  - [Globs](#globs)
+- [Part 2: Comparing Raw Commands & Files](#part-2-comparing-raw-commands--files)
+  - [Commands](#commands-1)
+  - [Files](#files-1)
+  - [Globs](#globs-1)
+- [Part 3: Conclusion](#part-3-conclusion)
+- [Appendix](#appendix)
+  - [Classic Insights Collection Flow with Remove.conf](#classic-insights-collection-flow-with-removeconf)
+
 ## Part 1: Comparing Symbolic Names
 In January 2019 it became possible to specify commands/files to remove using the "symbolic name" from the uploader.json. Since these names are derived from core components themselves, it stands to reason that a 1:1 relationship can be established.
 
