@@ -24,7 +24,7 @@ Indeed, the majority of symbolic names were able to be mapped to components. Her
 - `netstat__agn`  - **Renamed**. In core, this spec is named `netstat_agn`
 - `rpm__V_packages` - **Renamed**. In core, this spec is named `rpm_V_packages`
 - `ss_tupna` - **Duplicate**. This is an alias of the `ss` spec
-- `systemd_analyze_blame` - **Absent**. This spec is not available in core, even under a different name. I can only assume we no longer collect it.
+- ~`systemd_analyze_blame` - **Absent**. This spec is not available in core, even under a different name. I can only assume we no longer collect it.~ **Added to default specs on May 21, 2020**
 
 ### Files
 - `machine_id1` - **Aggregated**. Part of the `machine_id` spec. (no one should be blacklisting this anyway)
